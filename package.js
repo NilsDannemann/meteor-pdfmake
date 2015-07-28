@@ -2,11 +2,12 @@ Package.describe({
 	name: "nilsdannemann:pdfmake",
 	summary: "Adds pdfmake to your Meteor application",
 	author: "Nils Dannemann <ndannemann@gmail.com>",
-	version: "0.1.19",
+	version: "0.1.191",
 	documentation: 'readme.md',
 	git: "https://github.com/NilsDannemann/meteor-pdfmake.git"
 });
 
-Package.on_use(function (api, where) {
-	api.add_files(['build/pdfmake.min.js', 'build/vfs_fonts.js'], 'client');
+Package.onUse(function(api) {
+  api.versionsFrom('1.1.0.2');
+  api.addFiles(['build/pdfmake.min.js', 'build/vfs_fonts.js'], 'client');
 });
