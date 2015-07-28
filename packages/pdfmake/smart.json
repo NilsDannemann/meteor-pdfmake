@@ -1,8 +1,7 @@
 {
 	"name": "pdfmake",
 	"description": "Adds pdfmake to your Meteor application",
-	"homepage": "https://github.com/NilsDannemann/meteor-pdfmake",
 	"author": "Nils Dannemann <ndannemann@gmail.com>",
 	"version": "0.1.18",
-	"git": "https://github.com/NilsDannemann/meteor-pdfmake"
+	"git": "https://github.com/NilsDannemann/meteor-pdfmake.git"
 }

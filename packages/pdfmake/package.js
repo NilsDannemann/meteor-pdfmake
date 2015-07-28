@@ -4,7 +4,7 @@ Package.describe({
 	author: "Nils Dannemann <ndannemann@gmail.com>",
 	version: "0.1.18",
 	documentation: 'readme.md',
-	git: "https://github.com/NilsDannemann/meteor-pdfmake"
+	git: "https://github.com/NilsDannemann/meteor-pdfmake.git"
 });
 
 Package.on_use(function (api, where) {
