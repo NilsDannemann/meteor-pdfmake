@@ -1,8 +1,8 @@
 Package.describe({
 	name: "nilsdannemann:pdfmake",
-	summary: "Let's you generate PDF's on the client and provides handy Features for Layout & Styling.",
+	summary: "Let's you generate PDF's on the client and provides handy features for Layout & Styling.",
 	author: "Nils Dannemann <ndannemann@gmail.com>",
-	version: "1.0.1",
+	version: "1.0.2",
 	documentation: 'readme.md',
 	git: "https://github.com/NilsDannemann/meteor-pdfmake.git"
 });

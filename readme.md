@@ -35,7 +35,7 @@ Template.myTemplate.events({
 Thats it. When ".myButton" is clicked, the pdf is generated and then opened in the Browser.
 
 # Further Reading
-For more complex things I'd suggest to take a look at two things:
+For more complex things I would suggest to take a look at two things:
 
 1. [The Docs](http://pdfmake.org/index.html#/gettingstarted)
 
