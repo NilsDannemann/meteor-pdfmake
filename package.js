@@ -1,8 +1,8 @@
 Package.describe({
 	name: "nilsdannemann:pdfmake",
-	summary: "Adds pdfmake to your Meteor application",
+	summary: "Let's you generate PDF's on the client and provides handy Features for Layout & Styling.",
 	author: "Nils Dannemann <ndannemann@gmail.com>",
-	version: "0.1.191",
+	version: "1.0.1",
 	documentation: 'readme.md',
 	git: "https://github.com/NilsDannemann/meteor-pdfmake.git"
 });
