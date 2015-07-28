@@ -2,7 +2,7 @@ Package.describe({
 	name: "nilsdannemann:pdfmake",
 	summary: "Adds pdfmake to your Meteor application",
 	author: "Nils Dannemann <ndannemann@gmail.com>",
-	version: "0.1.1",
+	version: "0.1.11",
 	documentation: 'readme.md',
 	git: "https://github.com/NilsDannemann/meteor-pdfmake.git"
 });
