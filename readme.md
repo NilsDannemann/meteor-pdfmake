@@ -1,9 +1,9 @@
 # About
-* Package: [pdfmake](http://pdfmake.org/#/)
+* Original Package: [pdfmake](http://pdfmake.org/#/)
 * Original Author: [bpampuch](https://github.com/bpampuch)
 * Package Docs: [pdfmake-docs](http://pdfmake.org/#/gettingstarted)
-*  Version: client-version
-* Release: 0.1.17
+* Version: client-version
+* Release: 0.1.18
 
 With this Package of Pdfmake you can easily generate pdf documents on the client. It also provides quite a lot of useful [Features](http://pdfmake.org/#/features) to achive sophisticated layouts and fairly complex styling.
 
@@ -20,7 +20,7 @@ var docDefinition = { content: 'My Text' };
 ```javascript
 pdfMake.createPdf(docDefinition).open();
 ```
-* Now you can (for example) add both to any simple meteor event:
+* Now you could (for example) add both to any simple meteor event:
 ```javascript
 Template.myTemplate.events({
 	'click .myButton': function() {
