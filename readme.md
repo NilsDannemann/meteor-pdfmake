@@ -1,9 +1,9 @@
 # About
-* Original Package: [pdfmake](http://pdfmake.org/#/)
+* Package: [pdfmake](http://pdfmake.org/#/)
 * Original Author: [bpampuch](https://github.com/bpampuch)
 * Package Docs: [pdfmake-docs](http://pdfmake.org/#/gettingstarted)
-* Version: client-version
-* Release: 0.1.18
+*  Version: client-version
+* Release: 0.1.17
 
 With this Package of Pdfmake you can easily generate pdf documents on the client. It also provides quite a lot of useful [Features](http://pdfmake.org/#/features) to achive sophisticated layouts and fairly complex styling.
 
@@ -20,19 +20,64 @@ var docDefinition = { content: 'My Text' };
 ```javascript
 pdfMake.createPdf(docDefinition).open();
 ```
-* Now you could (for example) add both to any simple meteor event:
+* Now you can (for example) add both to any simple meteor event:
 ```javascript
 Template.myTemplate.events({
 	'click .myButton': function() {
-    	// Define the pdf-document
-    	var docDefinition = { content: 'My Text' };
-        
-        // Start the pdf-generation process
-        pdfMake.createPdf(docDefinition).open();
-    }
+		// Define the pdf-document
+		var docDefinition = { content: 'My Text' };
+		
+		// Start the pdf-generation process
+		pdfMake.createPdf(docDefinition).open();
+	}
 });
 ```
 Thats it. When ".myButton" is clicked, the pdf is generated and then opened in the Browser.
+
+# A more complex Example
+This Example uses variables and some pdfmake-features like: columns & style dictionaries:
+```javascript
+Template.product_controls.events({
+	'click .myButton': function() {
+		var myHeadline = this.myHeadline;
+		var myFirstItem = this.myFirstItem;
+		var mySecondItem = this.mySecondItem;
+		var myParagraph = this.myParagraph;
+
+		// Define the pdf-document
+		var docDefinition = { 
+			pageSize: 'A4',
+			pageMargins: [ 30, 25, 30, 25 ],
+			
+			// Content with styles
+			content: [
+				{ text: myHeadline, style: 'headline' },
+				{
+					columns: [
+						{ width: '15%', text: 'Item #1:', style: ['listItem', 'listLabel'] },
+						{ width: '35%', text: myFirstItem, style: ['listItem', 'listText'] },
+						{ width: '15%', text: 'Item #2:', style: ['listItem', 'listLabel'] },
+						{ width: '35%', text: mySecondItem, style: ['listItem', 'listText'] }
+					],
+					columnGap: 10
+				},
+				{ text: myParagraph }
+			],
+			
+			// Style dictionary
+			styles: {
+				headline: { fontSize: 25, bold: true, margin: [0, 0, 0, 25] },
+				listItem: { fontSize: 14, margin: [0, 0, 0, 5] },
+				listLabel: { bold: true },
+				listText: { italic: true }
+			}
+		};
+
+		// Start the pdf-generation process
+		pdfMake.createPdf(docDefinition).open();
+	}
+});
+```
 
 # Further Reading
 For more complex things I would suggest to take a look at two things:
