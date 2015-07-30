@@ -37,7 +37,7 @@ Thats it. When ".myButton" is clicked, the pdf is generated and then opened in t
 # A more complex Example
 This Example uses variables and some pdfmake-features like: columns & style dictionaries:
 ```javascript
-Template.product_controls.events({
+Template.myTemplate.events({
 	'click .myButton': function() {
 		var myHeadline = this.myHeadline;
 		var myFirstItem = this.myFirstItem;
