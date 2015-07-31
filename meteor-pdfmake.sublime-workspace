@@ -1,0 +1,1054 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"prod",
+				"product_form_edit"
+			],
+			[
+				"image",
+				"imageChangeRequest"
+			],
+			[
+				"produ",
+				"products_edit	(routes.js)"
+			],
+			[
+				"file",
+				"fileinput"
+			],
+			[
+				"product_form_",
+				"product_form_edit	(product_form_edit.html)"
+			],
+			[
+				"reg",
+				"reg	(methods.js)"
+			],
+			[
+				"WOF",
+				"WOF	(product_formfields.html)"
+			],
+			[
+				"Kilometers",
+				"Kilometers	(product_formfields.html)"
+			],
+			[
+				"mnav",
+				"mnav_cartypes	(mnav_cartypes.styl)"
+			],
+			[
+				"Date",
+				"Date"
+			],
+			[
+				"product",
+				"products	(routes.js)"
+			],
+			[
+				"curr",
+				"currentProductCountId"
+			],
+			[
+				"this",
+				"thisproductCountId"
+			],
+			[
+				"form",
+				"form_products_edit	(products_edit.html)"
+			],
+			[
+				"drop",
+				"dropdownCurrentProductSession"
+			],
+			[
+				"dro",
+				"dropdown__content--active"
+			],
+			[
+				"curren",
+				"currentProductId"
+			],
+			[
+				"dropdown__content",
+				"dropdown__content--active"
+			],
+			[
+				"productc",
+				"productcontrols"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"mark",
+				"markedAsSold"
+			],
+			[
+				"my_products_",
+				"my_products_view_all	(routes.js)"
+			],
+			[
+				"my",
+				"myProductsSession"
+			],
+			[
+				"sideb",
+				"sidebar_products	(sidebar_products.html)"
+			],
+			[
+				"remo",
+				"removeProduct	(methods.js)"
+			],
+			[
+				"productC",
+				"productCountId"
+			],
+			[
+				"use",
+				"userProductNumber"
+			],
+			[
+				"ima",
+				"imageId"
+			],
+			[
+				"prodc",
+				"product__content	(product_list.html)"
+			],
+			[
+				"products",
+				"products_detail	(products_detail.html)"
+			],
+			[
+				"produc",
+				"product__detail	(product.html)"
+			],
+			[
+				"prdo",
+				"product__button"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"form_",
+				"form_products_add	(form_products_add.html)"
+			],
+			[
+				"compon",
+				"component_logo	(component_header.html)"
+			],
+			[
+				"HOME",
+				"HOME	(m_kqcars.html)"
+			],
+			[
+				"Droi",
+				"DroidSansBold	(default.css)"
+			],
+			[
+				"sans-s",
+				"sans-serif"
+			],
+			[
+				"Droid",
+				"DroidSansRegular"
+			],
+			[
+				"Dro",
+				"DroidSansBold"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sidebar",
+				"sidebar_content"
+			],
+			[
+				"Ge",
+				"Georgia"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"marg",
+				"margin15"
+			],
+			[
+				"small",
+				"small"
+			],
+			[
+				"margin1",
+				"margin15"
+			],
+			[
+				"margn",
+				"margin0"
+			],
+			[
+				"mari",
+				"margin15"
+			],
+			[
+				"one",
+				"one_third"
+			],
+			[
+				"two",
+				"two_third"
+			],
+			[
+				"margin",
+				"margin0"
+			],
+			[
+				"mar",
+				"margin0"
+			],
+			[
+				"marin2",
+				"margin25"
+			],
+			[
+				"clea",
+				"clearfix"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 471.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"packarem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packrem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"syncss",
+				"Set Syntax: CSS"
+			],
+			[
+				"synscs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"packint",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"formhtml",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"formatht",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"formath",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"task",
+				"Tasks: New"
+			],
+			[
+				"pakre",
+				"Package Control: Remove Channel"
+			],
+			[
+				"stat",
+				"Tasks: Copy Statistics"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"bem",
+				"Set Syntax: BEMHTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			]
+		],
+		"width": 581.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Nils Dannemann/Desktop/Sites/meteor-pdfmake"
+	],
+	"file_history":
+	[
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product_controls.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product_controls.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product_form_edit.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/.meteor/packages",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product_images.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product_images.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/lib/routes.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/lib/collections.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product_outputfields.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/.meteor/local/build/programs/.build786149.web.browser/app/client/components/product/template.product_outputfields.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product_form_add.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product_formfields.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/form.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/server/methods.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/product/product.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/pages/products_edit.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/pages/products_add.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/pages/my_products.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/account/account_form_signup.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/account/account_form_signup.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/grid.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/pages/products_detail.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/server/publications.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/subscriptions.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/main.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/header/header.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/logo/logo.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/dropdown/dropdown.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/main.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/header",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/filter/filter.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/account/account_form_login.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/header.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/dropdown/dropdown.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/filter/filter.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/components/filter/filter.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/main.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/server/security.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/form_products_add.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/products_edit.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/form.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/scripts/products.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/base.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/server/lib/methods.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/server/lib/cronjobs.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productcontrols.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/form_products_edit.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/products_add.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/products.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/dropdown.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/scripts/dropdowns.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/button.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/panel.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/scripts/mnav.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/products_detail.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfields.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/product.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/sidebar/sidebar_products.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/sidebar/sidebar_account.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/account_login.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/account_signup.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/my_products.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/products_add_error.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/products_add_rules.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/products_add_success.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/layouts/layout_loading.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/loader.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/.meteor/local/build/programs/web.browser/app/client/scripts/products.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/sidebar/sidebar_my_products.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/mnav.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/my_products_add_rules.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/my_products_view_all.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/header.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/scripts/accounts.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/form_account_login.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/formfields.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/form_account_signup.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/formfields_account.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/formfield_image_inback.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_built.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_description.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_email.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_image_main.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_kilometers.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_model.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_number.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_price.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_reg.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/productfield_wof.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product/product_image_main.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/formfield_account_lastname.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form/formfield_account_email.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_wof.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_reg.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_price.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_model.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form_account_login.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_kilometers.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_email.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_detail_description.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_built.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_detail_number.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_detail_model.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product_list.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form_account_signup.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/form_products_add.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/product.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/grid.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/routes.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/my_products_add.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/component_mnav.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/component_logo.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/components/component_header.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/component_logo.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/component_mnav.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/components/component_header.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/layout/layout_base.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/page_sell.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/page_pricing.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/page_map.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/pages/page_home.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/layouts/layout_base.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/app_header.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/app_base.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/section_home.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/styles/app_header.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/section_sell.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_kqcars/client/templates/section_map.html"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"30",
+			"14",
+			"Built",
+			"Price",
+			"Geartype",
+			"Cartype",
+			"Geartype",
+			"/ Gearty",
+			"// Geartyp",
+			"10",
+			"'listLabel'",
+			"40",
+			"     ",
+			"       ",
+			"40",
+			"  ",
+			"      ",
+			"text",
+			"'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Malit profecta versatur nomine ocurreret multavit, officiis viveremus aeternum superstitio suspicor alia nostram, quando nostros congressus susceperant concederetur leguntur iam, vigiliae democritea tantopere causae, atilii plerumque ipsas potitur pertineant multis rem quaeri pro, legendum didicisse credere ex maluisset per videtis. Cur discordans praetereat aliae ruinae dirigentur orestem eodem, praetermittenda divinum. Collegisti, deteriora malint loquuntur officii cotidie finitas referri doleamus ambigua acute. Adhaesiones ratione beate arbitraretur detractis perdiscere, constituant hostis polyaeno. Diu concederetur.'",
+			"sideImageChangeRequest",
+			"imageChangeRequest",
+			"product__imagewrapper",
+			"formfield",
+			"addProductHooks",
+			"true",
+			"false",
+			"addProductHooks",
+			"product_form_add",
+			"false",
+			" {{#if afFieldIsInvalid name='cost'}} form__group--error{{/if}}",
+			"form__group",
+			"#if afFieldIsInvalid",
+			"true",
+			"label:",
+			"Ouch, something is wrong here! Please check! ",
+			"{{#if afFieldIsInvalid n",
+			"model",
+			"grid",
+			"insertBookForm",
+			"geartype",
+			"cartype",
+			"geartype",
+			"cartype",
+			"model",
+			";",
+			"carswitcher",
+			"components",
+			"from__label",
+			"bootstrap3-horizontal",
+			"}}",
+			"insertBookForm",
+			"			optional: false\n",
+			"tmpdoc.imageType",
+			"proddy",
+			"  ",
+			" ",
+			"thisProductCountId",
+			"thisProduct",
+			"thisproductCountId",
+			"      ",
+			"currentProductDropdownSession",
+			"currentProductDropdown ",
+			"currentProductDropdown",
+			"currentProductId",
+			"left",
+			"  ",
+			"<li>",
+			"li",
+			"Item",
+			"div",
+			"  ",
+			"    ",
+			"<div class=\"product__image\" style=\"background-image: url('{{this.url store='thumbs' uploading='loader-uploading.gif' storing='loader-storing.gif'}}')\"></div>",
+			"Session.set",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"{{this.url}}",
+			"uploading=",
+			"uploading",
+			"FileSystem",
+			"  ",
+			"span",
+			"product__image",
+			"markedAsSoldHelpers",
+			");",
+			"(",
+			";\n",
+			"currentProduct",
+			"layout_my_products",
+			"facebook",
+			"function",
+			",",
+			"}\n",
+			"productCountId",
+			"randomNumber",
+			"productCountId",
+			"productNumber",
+			"				\n",
+			"=",
+			"userProductNumber",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"product__",
+			"form__",
+			"product__",
+			"form__",
+			"form__b",
+			"form",
+			"> product_",
+			"product_",
+			"_detail_",
+			"_detail",
+			"email",
+			"d=\"\"",
+			" grid--half",
+			"grid",
+			"Kilometers",
+			"bottom",
+			"form__row",
+			";",
+			"model",
+			"fileupload"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 135.0
+	},
+	"pinned_build_system": "",
+	"project": "meteor-pdfmake.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"controls",
+				"client\\components\\product\\product_controls.html"
+			],
+			[
+				"package",
+				".meteor\\packages"
+			],
+			[
+				"form",
+				"client\\styles\\form.styl"
+			],
+			[
+				"fields",
+				"client\\components\\product\\product_formfields.html"
+			],
+			[
+				"edit",
+				"client\\pages\\products_edit.html"
+			],
+			[
+				"meth",
+				"server\\methods.js"
+			],
+			[
+				"form_s",
+				"client\\components\\account\\account_form_signup.js"
+			],
+			[
+				"from_sign",
+				"client\\components\\account\\account_form_signup.html"
+			],
+			[
+				"coll",
+				"lib\\collections.js"
+			],
+			[
+				"grid",
+				"client\\styles\\grid.styl"
+			],
+			[
+				"add",
+				"client\\pages\\products_add.html"
+			],
+			[
+				"_add",
+				"client\\components\\product\\product_form_add.html"
+			],
+			[
+				"prodd",
+				"client\\pages\\products_detail.html"
+			],
+			[
+				"prodou",
+				"client\\components\\product\\product_outputfields.html"
+			],
+			[
+				"prod",
+				"client\\components\\product\\product.js"
+			],
+			[
+				"prodfiel",
+				"client\\components\\product\\product_formfields.html"
+			],
+			[
+				"publ",
+				"server\\publications.js"
+			],
+			[
+				"main",
+				"main.styl"
+			],
+			[
+				"header",
+				"client\\components\\header.html"
+			],
+			[
+				"route",
+				"lib\\routes.js"
+			],
+			[
+				"rou",
+				"lib\\routes.js"
+			],
+			[
+				"pro",
+				"client\\scripts\\products.js"
+			],
+			[
+				"method",
+				"server\\lib\\methods.js"
+			],
+			[
+				"rout",
+				"lib\\routes.js"
+			],
+			[
+				"butt",
+				"client\\styles\\components\\button.styl"
+			],
+			[
+				"mnav",
+				"client\\scripts\\mnav.js"
+			],
+			[
+				"panel",
+				"client\\styles\\components\\panel.styl"
+			],
+			[
+				"base",
+				"client\\styles\\base.styl"
+			],
+			[
+				"prodfi",
+				"client\\templates\\components\\product\\productfields.html"
+			],
+			[
+				"prodf",
+				"client\\templates\\components\\product\\productfields.html"
+			],
+			[
+				"prods",
+				"client\\styles\\components\\product.styl"
+			],
+			[
+				"butto",
+				"client\\styles\\components\\button.styl"
+			],
+			[
+				"detail",
+				"client\\templates\\pages\\products_detail.html"
+			],
+			[
+				"profi",
+				"client\\templates\\components\\product\\productfields.html"
+			],
+			[
+				"field",
+				"client\\templates\\components\\product\\productfields.html"
+			],
+			[
+				"metho",
+				"server\\lib\\methods.js"
+			],
+			[
+				"rul",
+				"client\\templates\\pages\\products_add_rules.html"
+			],
+			[
+				"mna",
+				"client\\scripts\\mnav.js"
+			],
+			[
+				"sideb",
+				"client\\templates\\components\\sidebar\\sidebar_products.html"
+			],
+			[
+				"ro",
+				"lib\\routes.js"
+			],
+			[
+				"routes",
+				"lib\\routes.js"
+			],
+			[
+				"fiel",
+				"client\\templates\\components\\product\\productfields.html"
+			],
+			[
+				"pfiel",
+				"client\\templates\\components\\product\\productfields.html"
+			],
+			[
+				"side",
+				"client\\templates\\components\\sidebar\\sidebar_products.html"
+			],
+			[
+				"formf",
+				"client\\templates\\components\\form\\formfields.html"
+			],
+			[
+				"sign",
+				"client\\templates\\components\\form_account_signup.html"
+			],
+			[
+				"forma",
+				"client\\templates\\components\\form_account_login.html"
+			],
+			[
+				"from",
+				"client\\styles\\components\\form.styl"
+			],
+			[
+				"produ",
+				"client\\styles\\components\\product.styl"
+			],
+			[
+				"formadd",
+				"client\\templates\\components\\form_products_add.html"
+			],
+			[
+				"foot",
+				"wp-content\\themes\\WildCommunity\\footer.php"
+			],
+			[
+				"angeb",
+				"wp-content\\themes\\WildCommunity\\template-angebot.php"
+			],
+			[
+				"func",
+				"wp-content\\themes\\WildCommunity\\functions.php"
+			],
+			[
+				"todo",
+				"KiwiQuest_Todo.todo"
+			],
+			[
+				"over",
+				"wp-content\\themes\\WildCommunity\\template-angebot-overview.php"
+			],
+			[
+				"funct",
+				"wp-includes\\functions.php"
+			],
+			[
+				"templa",
+				"wp-content\\themes\\WildCommunity\\template-angebot-overview.php"
+			],
+			[
+				"resp",
+				"wp-content\\themes\\WildCommunity\\_inc\\css\\responsive.css"
+			],
+			[
+				"defau",
+				"wp-content\\themes\\WildCommunity\\_inc\\css\\default.css"
+			],
+			[
+				"sett",
+				"assets\\scss\\_settings.scss"
+			],
+			[
+				"nav",
+				"assets\\scss\\base\\_navigation.scss"
+			],
+			[
+				"blog",
+				"wp-content\\themes\\WildCommunity\\blog.php"
+			],
+			[
+				"templ",
+				"wp-content\\themes\\WildCommunity\\template-contact.php"
+			],
+			[
+				"single",
+				"wp-content\\themes\\WildCommunity\\single.php"
+			],
+			[
+				"feedb",
+				"wp-content\\themes\\WildCommunity\\template-feedback.php"
+			],
+			[
+				"ange",
+				"wp-content\\themes\\WildCommunity\\template-angebot.php"
+			],
+			[
+				"front",
+				"wp-content\\themes\\WildCommunity\\frontpage1.php"
+			],
+			[
+				"heade",
+				"wp-content\\themes\\WildCommunity\\header.php"
+			],
+			[
+				"global",
+				"wp-content\\themes\\WildCommunity\\_inc\\global.js"
+			],
+			[
+				"sing",
+				"wp-content\\themes\\WildCommunity\\single.php"
+			],
+			[
+				"headr",
+				"wp-includes\\theme-compat\\header.php"
+			],
+			[
+				"head",
+				"wp-content\\themes\\WildCommunity\\header.php"
+			],
+			[
+				"globa",
+				"wp-content\\themes\\WildCommunity\\_inc\\global.js"
+			],
+			[
+				"archi",
+				"wp-content\\themes\\WildCommunity\\archive.php"
+			],
+			[
+				"fun",
+				"wp-content\\themes\\WildCommunity\\functions.php"
+			],
+			[
+				"res",
+				"wp-content\\themes\\WildCommunity\\_inc\\css\\responsive.css"
+			],
+			[
+				"defacss",
+				"wp-content\\themes\\WildCommunity\\_inc\\css\\default.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Nils Dannemann\\Desktop\\Sites\\KiwiQuest_WP_V2\\KiwiQuest_WP_V2.sublime-project"
+			],
+			[
+				"ki",
+				"C:\\Users\\Nils Dannemann\\Desktop\\Sites\\KiwiQuest_App_Notes\\KQ_App_Notebook.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
