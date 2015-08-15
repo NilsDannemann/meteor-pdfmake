@@ -235,6 +235,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "package.js",
+			"settings":
+			{
+				"buffer_size": 456,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 3116,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -499,6 +515,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"mySecondItem",
 			"30",
 			"14",
 			"Built",
@@ -625,8 +642,7 @@
 			"bottom",
 			"form__row",
 			";",
-			"model",
-			"fileupload"
+			"model"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -644,8 +660,72 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "package.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1773,
+								1773
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 936.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1020,7 +1100,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Nils Dannemann\\Desktop\\Sites\\KiwiQuest_WP_V2\\KiwiQuest_WP_V2.sublime-project"
+				"C:\\Users\\Nils Dannemann\\Desktop\\Sites\\m_kqcars\\m_kqcars.sublime-project"
 			],
 			[
 				"ki",

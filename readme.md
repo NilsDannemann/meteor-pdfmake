@@ -42,7 +42,9 @@ Template.myTemplate.events({
 		var myHeadline = this.myHeadline;
 		var myFirstItem = this.myFirstItem;
 		var mySecondItem = this.mySecondItem;
-		var myParagraph = this.myParagraph;
+		// Some examples without 'this'
+		var currentUser = Meteor.user().profile.name;
+		var productDetails = Products.findOne(this._id).details;
 
 		// Define the pdf-document
 		var docDefinition = { 
@@ -61,7 +63,8 @@ Template.myTemplate.events({
 					],
 					columnGap: 10
 				},
-				{ text: myParagraph }
+				{ text: currentUser },
+				{ text: productDetails }
 			],
 			
 			// Style dictionary
