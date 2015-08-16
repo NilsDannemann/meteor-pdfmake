@@ -34,7 +34,33 @@ Template.myTemplate.events({
 ```
 Thats it. When ".myButton" is clicked, the pdf is generated and then opened in the Browser.
 
-# A more complex Example
+# Example: Iterating over a collection
+This Example explains how to iterate over documents in a collection.
+```javascript
+Template.myTemplate.events({
+	'click .myButton': function() {
+		var customerNames = Customers.find().map(function(i){
+			return i.name;
+		});
+		// Define the pdf-document
+		var docDefinition = { 
+			pageSize: 'A4',
+			pageMargins: [ 30, 25, 30, 25 ],
+
+			content: [
+				'Some text',		
+				customerNames,
+				'some more text'	
+			]
+		};
+		
+		// Start the pdf-generation process
+		pdfMake.createPdf(docDefinition).open();
+	}
+});
+```
+
+# Example: Columns & Styles
 This Example uses variables and some pdfmake-features like: columns & style dictionaries:
 ```javascript
 Template.myTemplate.events({

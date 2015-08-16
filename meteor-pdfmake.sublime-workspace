@@ -247,7 +247,7 @@
 			"file": "readme.md",
 			"settings":
 			{
-				"buffer_size": 3116,
+				"buffer_size": 3085,
 				"line_ending": "Windows"
 			}
 		}
@@ -660,7 +660,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -676,8 +676,8 @@
 						"selection":
 						[
 							[
-								316,
-								316
+								273,
+								273
 							]
 						],
 						"settings":
@@ -691,7 +691,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -700,15 +700,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3116,
+						"buffer_size": 3085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1773,
-								1773
+								1843,
+								1843
 							]
 						],
 						"settings":
@@ -723,7 +723,7 @@
 						"translation.y": 936.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
