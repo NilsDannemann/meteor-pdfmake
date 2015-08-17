@@ -39,6 +39,7 @@ Here are some examples on how you might use the package.
 
 ## 1. Iterating over a Collection
 This Example explains how to iterate over documents in a collection. 
+
 **In this case:** How to display the names of all customers in the Collection "Customers".
 ```javascript
 Template.myTemplate.events({
@@ -64,9 +65,10 @@ Template.myTemplate.events({
 
 ## 2. Using Columns & Styles
 This Example uses iron:router and some pdfmake-features like: page-sizes, page-margins, columns & style dictionaries.
+
 **In this case:** How to display some Customer Data with a decent layout.
 ```javascript
-// To use varibles like "var myHeadline = this.myHeadline;" you'll need to set up your route.
+// Somthing like "var customerName = this.name;" (notice the "this") requires a route like this:
 Router.route('/customer_detail/:_id/', {
 	action: function () {
 		this.render('customer_detail', {
