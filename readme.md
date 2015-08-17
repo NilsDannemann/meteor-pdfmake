@@ -34,23 +34,25 @@ Template.myTemplate.events({
 ```
 Thats it. When ".myButton" is clicked, the pdf is generated and then opened in the Browser.
 
-# Example: Iterating over a collection
-This Example explains how to iterate over documents in a collection.
+# Examples
+Here are some examples on how you might use the package.
+
+## 1. Iterating over a Collection
+This Example explains how to iterate over documents in a collection. 
+**In this case:** How to display the names of all customers in the Collection "Customers".
 ```javascript
 Template.myTemplate.events({
 	'click .myButton': function() {
 		var customerNames = Customers.find().map(function(i){
 			return i.name;
 		});
+
 		// Define the pdf-document
 		var docDefinition = { 
-			pageSize: 'A4',
-			pageMargins: [ 30, 25, 30, 25 ],
-
 			content: [
 				'Some text',		
 				customerNames,
-				'some more text'	
+				'Some text'
 			]
 		};
 		
@@ -60,17 +62,31 @@ Template.myTemplate.events({
 });
 ```
 
-# Example: Columns & Styles
-This Example uses variables and some pdfmake-features like: columns & style dictionaries:
+## 2. Using Columns & Styles
+This Example uses iron:router and some pdfmake-features like: page-sizes, page-margins, columns & style dictionaries.
+**In this case:** How to display some Customer Data with a decent layout.
+```javascript
+// To use varibles like "var myHeadline = this.myHeadline;" you'll need to set up your route.
+Router.route('/customer_detail/:_id/', {
+	action: function () {
+		this.render('customer_detail', {
+			data: function () {
+				return Customers.findOne({_id: this.params._id});
+			}
+		});
+	}
+});
+```
 ```javascript
 Template.myTemplate.events({
 	'click .myButton': function() {
-		var myHeadline = this.myHeadline;
-		var myFirstItem = this.myFirstItem;
-		var mySecondItem = this.mySecondItem;
-		// Some examples without 'this'
+		// Some variables with 'this' (requires router setup like above)
+		var customerName = this.name;
+		var customerDetailOne = this.detail_one;
+		var customerDetailTwo = this.detail_two;
+		// Some variables without 'this'
+		var customerAdress = Customers.findOne(this._id).adress;
 		var currentUser = Meteor.user().profile.name;
-		var productDetails = Products.findOne(this._id).details;
 
 		// Define the pdf-document
 		var docDefinition = { 
@@ -79,18 +95,18 @@ Template.myTemplate.events({
 			
 			// Content with styles
 			content: [
-				{ text: myHeadline, style: 'headline' },
+				{ text: customerName, style: 'headline' },
 				{
 					columns: [
-						{ width: '15%', text: 'Item #1:', style: ['listItem', 'listLabel'] },
-						{ width: '35%', text: myFirstItem, style: ['listItem', 'listText'] },
-						{ width: '15%', text: 'Item #2:', style: ['listItem', 'listLabel'] },
-						{ width: '35%', text: mySecondItem, style: ['listItem', 'listText'] }
+						{ width: '15%', text: 'Detail #1:', style: ['listItem', 'listLabel'] },
+						{ width: '35%', text: customerDetailOne, style: ['listItem', 'listText'] },
+						{ width: '15%', text: 'Detail #2:', style: ['listItem', 'listLabel'] },
+						{ width: '35%', text: customerDetailTwo, style: ['listItem', 'listText'] }
 					],
 					columnGap: 10
 				},
-				{ text: currentUser },
-				{ text: productDetails }
+				{ text: customerAdress },
+				{ text: currentUser }
 			],
 			
 			// Style dictionary
