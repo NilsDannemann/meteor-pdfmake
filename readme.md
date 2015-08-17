@@ -98,6 +98,7 @@ Template.myTemplate.events({
 
 		// clear form & prevent browser refresh
 		event.target.name.value = "";
+		event.target.number.value = "";
 		event.preventDefault();
 	}
 });
@@ -105,7 +106,7 @@ Template.myTemplate.events({
 
 
 ## 3. Using Columns & Styles
-This Example uses iron:router and some pdfmake-features like: page-sizes, page-margins, columns & style dictionaries.
+This Example uses iron:router and pdfmake-features like: page sizes & margins, columns & style dictionaries.
 
 **In this case:** Display some Customer Data with a decent layout.
 ```javascript
