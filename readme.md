@@ -40,7 +40,7 @@ Here are some examples on how you might use the package.
 ## 1. Iterating over a Collection
 This Example explains how to iterate over documents in a collection. 
 
-**In this case:** How to display the names of all customers in the Collection "Customers".
+**In this case:** Display the names of all customers in the Collection "Customers".
 ```javascript
 Template.myTemplate.events({
 	'click .myButton': function() {
@@ -63,26 +63,55 @@ Template.myTemplate.events({
 });
 ```
 
-## 2. Using Columns & Styles
-This Example uses iron:router and some pdfmake-features like: page-sizes, page-margins, columns & style dictionaries.
 
-**In this case:** How to display some Customer Data with a decent layout.
+## 2. Using a Form to create a pdf
+This Example take the input values from a form an creates a pdf with them on submit.
+
+**The form:**
+```html
+<template name="myTemplate">
+	<form class="my_form">
+		<input class="my_input" type="text" name="name">
+		<input class="my_input" type="text" name="number">
+		<input type="submit" value="submit">
+	</form>
+</template>
+```
+**The event:**
 ```javascript
-// Somthing like "var customerName = this.name;" (notice the "this") requires a route like this:
-Router.route('/customer_detail/:_id/', {
-	action: function () {
-		this.render('customer_detail', {
-			data: function () {
-				return Customers.findOne({_id: this.params._id});
-			}
-		});
+Template.myTemplate.events({
+	'submit .my_form': function(event) {
+		var name = event.target.name.value;
+		var number = event.target.number.value;
+
+		//define pdf
+		var docDefinition = {
+			content: [
+				name,
+				number,
+				'Some text'
+			]
+		};
+
+		//generate pdf
+		pdfMake.createPdf(docDefinition).open();
+
+		// clear form & prevent browser refresh
+		event.target.name.value = "";
+		event.preventDefault();
 	}
 });
 ```
+
+
+## 3. Using Columns & Styles
+This Example uses iron:router and some pdfmake-features like: page-sizes, page-margins, columns & style dictionaries.
+
+**In this case:** Display some Customer Data with a decent layout.
 ```javascript
 Template.myTemplate.events({
 	'click .myButton': function() {
-		// Some variables with 'this' (requires router setup like above)
+		// Some variables with 'this' (requires router setup - see below)
 		var customerName = this.name;
 		var customerDetailOne = this.detail_one;
 		var customerDetailTwo = this.detail_two;
@@ -122,6 +151,18 @@ Template.myTemplate.events({
 
 		// Start the pdf-generation process
 		pdfMake.createPdf(docDefinition).open();
+	}
+});
+```
+To use "this" in your variables, use a router setup like so:
+```javascript
+Router.route('/customer_detail/:_id/', {
+	action: function () {
+		this.render('customer_detail', {
+			data: function () {
+				return Customers.findOne({_id: this.params._id});
+			}
+		});
 	}
 });
 ```
