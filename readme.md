@@ -2,7 +2,7 @@
 * Package: [pdfmake](http://pdfmake.org/#/)
 * Original Author: [bpampuch](https://github.com/bpampuch)
 * Package Docs: [pdfmake-docs](http://pdfmake.org/#/gettingstarted)
-* Version: client-version
+* Version: client-version (not working on server)
 * Release: 0.1.20
 
 With this Package of Pdfmake you can easily generate pdf documents on the client. It also provides quite a lot of useful [Features](http://pdfmake.org/#/features) to achive sophisticated layouts and fairly complex styling.
