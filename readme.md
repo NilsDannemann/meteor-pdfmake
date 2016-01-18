@@ -1,3 +1,6 @@
+# Important Note
+This is a wrapper for the npm package pdfmake. Since with **Meteor 1.3** you can include npm packages out of the box I'll stop updating this plugin. Just use the original [npm package](http://pdfmake.org/#/) instead.
+
 # About
 * Package: [pdfmake](http://pdfmake.org/#/)
 * Original Author: [bpampuch](https://github.com/bpampuch)
